@@ -33,6 +33,7 @@ public class PlayerController : MonoBehaviour
     {
         _inputActions.Player.Move.performed -= OnMove;
         _inputActions.Player.Move.canceled -= OnMove;
+        _inputActions.Player.Inventory.performed -= OnInventory;
         _inputActions.Player.Disable();
     }
 

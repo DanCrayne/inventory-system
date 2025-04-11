@@ -27,4 +27,14 @@ public class GameManager : MonoBehaviour
             Debug.LogError("Player character is not assigned in the GameManager.");
         }
     }
+
+    public void PauseGame()
+    {
+        Time.timeScale = 0f;
+    }
+
+    public void UnpauseGame()
+    {
+        Time.timeScale = 1f;
+    }
 }

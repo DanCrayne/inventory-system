@@ -667,7 +667,7 @@ GameObject:
   - component: {fileID: 677440865}
   - component: {fileID: 677440864}
   m_Layer: 0
-  m_Name: Grid
+  m_Name: TilemapGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -713,7 +713,6 @@ GameObject:
   - component: {fileID: 717077559}
   - component: {fileID: 717077558}
   - component: {fileID: 717077557}
-  - component: {fileID: 717077561}
   m_Layer: 5
   m_Name: InventoryCanvas
   m_TagString: Untagged
@@ -797,28 +796,13 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1242654327}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1653795407}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &717077561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 717077556}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e2cd0c88cdcb5649948f41a716927a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  InventoryItemPrefab: {fileID: 466665169561071779, guid: d5f3a00433de65e40a1d5423340c0dbb, type: 3}
-  InventoryContent: {fileID: 2005262057}
-  ItemSlotPrefab: {fileID: 466665169561071779, guid: d5f3a00433de65e40a1d5423340c0dbb, type: 3}
 --- !u!1 &764544865
 GameObject:
   m_ObjectHideFlags: 0
@@ -876,7 +860,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4091114479317002835, guid: e391b5c4af3272a4fb0f4550a894885d, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6397,6 +6381,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1641009639}
   - component: {fileID: 1641009638}
+  - component: {fileID: 1641009640}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -6430,6 +6415,73 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1641009640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641009637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2cd0c88cdcb5649948f41a716927a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InventoryContent: {fileID: 2005262057}
+  ItemSlotPrefab: {fileID: 466665169561071779, guid: d5f3a00433de65e40a1d5423340c0dbb, type: 3}
+  InventoryCanvas: {fileID: 717077556}
+  InventoryUiController: {fileID: 1653795406}
+--- !u!1 &1653795405
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1653795407}
+  - component: {fileID: 1653795406}
+  m_Layer: 0
+  m_Name: InventoryUi
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1653795406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653795405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86ad58b197cc1874bb27ac40188e07ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentSlotComponent: {fileID: 2005262056}
+  InventoryCanvas: {fileID: 717077559}
+  InventoryContent: {fileID: 2005262057}
+  ItemSlotPrefab: {fileID: 466665169561071779, guid: d5f3a00433de65e40a1d5423340c0dbb, type: 3}
+  SelectedItemImage: {fileID: 764544865}
+  SelectedItemText: {fileID: 1925703020}
+--- !u!4 &1653795407
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653795405}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 942.1832, y: 560.62994, z: -0.49565935}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 717077560}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1925703018
@@ -6489,7 +6541,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Item description here
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6676,7 +6728,7 @@ SceneRoots:
   - {fileID: 1641009639}
   - {fileID: 677440865}
   - {fileID: 97481543}
-  - {fileID: 717077560}
   - {fileID: 673683008}
   - {fileID: 1102643607}
   - {fileID: 937404551}
+  - {fileID: 1653795407}
