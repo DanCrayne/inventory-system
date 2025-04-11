@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: e391b5c4af3272a4fb0f4550a894885d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8516249152847608064
+    second: items_by_reidyaro-d47dn3h_0_3_0
+  - first:
+      213: 6755298653532095078
+    second: items_by_reidyaro-d47dn3h_0_3_1
+  - first:
+      213: 332193950784542149
+    second: items_by_reidyaro-d47dn3h_0_3_2
+  - first:
+      213: 4091114479317002835
+    second: items_by_reidyaro-d47dn3h_0_3_3
+  - first:
+      213: 8221819406100428732
+    second: items_by_reidyaro-d47dn3h_0_3_4
+  - first:
+      213: -5459505494536129070
+    second: items_by_reidyaro-d47dn3h_0_3_5
+  - first:
+      213: 5364726282039942513
+    second: items_by_reidyaro-d47dn3h_0_3_6
+  - first:
+      213: -5093899249986237783
+    second: items_by_reidyaro-d47dn3h_0_3_7
+  - first:
+      213: -8233971155596784952
+    second: items_by_reidyaro-d47dn3h_0_3_8
+  - first:
+      213: -8507852385089861375
+    second: items_by_reidyaro-d47dn3h_0_3_9
+  - first:
+      213: 7017957992778369360
+    second: items_by_reidyaro-d47dn3h_0_3_10
+  - first:
+      213: -8201488246827076898
+    second: items_by_reidyaro-d47dn3h_0_3_11
+  - first:
+      213: -8649454589952838067
+    second: items_by_reidyaro-d47dn3h_0_3_12
+  - first:
+      213: -4628220566699773027
+    second: items_by_reidyaro-d47dn3h_0_3_13
+  - first:
+      213: 2221753302648039078
+    second: items_by_reidyaro-d47dn3h_0_3_14
+  - first:
+      213: -6668304232162809749
+    second: items_by_reidyaro-d47dn3h_0_3_15
+  - first:
+      213: -7426608618100706945
+    second: items_by_reidyaro-d47dn3h_0_3_16
+  - first:
+      213: -4458370976933483344
+    second: items_by_reidyaro-d47dn3h_0_3_17
+  - first:
+      213: 7611678364029414047
+    second: items_by_reidyaro-d47dn3h_0_3_18
+  - first:
+      213: 5629567021327871494
+    second: items_by_reidyaro-d47dn3h_0_3_19
+  - first:
+      213: 7859962328492708012
+    second: items_by_reidyaro-d47dn3h_0_3_20
+  - first:
+      213: -1455416294416512838
+    second: items_by_reidyaro-d47dn3h_0_3_21
+  - first:
+      213: 3587418409375646615
+    second: items_by_reidyaro-d47dn3h_0_3_22
+  - first:
+      213: 6960295778623976626
+    second: items_by_reidyaro-d47dn3h_0_3_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: items_by_reidyaro-d47dn3h_0_3_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 105
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0070cc9348430d980800000000000000
+      internalID: -8516249152847608064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_by_reidyaro-d47dn3h_0_3_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 108
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66284739554afbd50800000000000000
+      internalID: 6755298653532095078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_by_reidyaro-d47dn3h_0_3_2
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 98
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c5db0163a03c9400800000000000000
+      internalID: 332193950784542149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_by_reidyaro-d47dn3h_0_3_3
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 101
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35aa52b71fe86c830800000000000000
+      internalID: 4091114479317002835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_by_reidyaro-d47dn3h_0_3_4
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 103
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb777045035c91270800000000000000
+      internalID: 8221819406100428732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_by_reidyaro-d47dn3h_0_3_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d571ecada0fb34b0800000000000000
+      internalID: -5459505494536129070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_by_reidyaro-d47dn3h_0_3_6
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 72
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d51364126537a40800000000000000
+      internalID: 5364726282039942513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_by_reidyaro-d47dn3h_0_3_7
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 66
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa01faee95de49b0800000000000000
+      internalID: -5093899249986237783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_by_reidyaro-d47dn3h_0_3_8
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 67
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca47d30cde0bbd80800000000000000
+      internalID: -8233971155596784952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_by_reidyaro-d47dn3h_0_3_9
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 73
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 109424115590ee980800000000000000
+      internalID: -8507852385089861375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_by_reidyaro-d47dn3h_0_3_10
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 81
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0590b289c9bc46160800000000000000
+      internalID: 7017957992778369360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_by_reidyaro-d47dn3h_0_3_11
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 74
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2b45294e57e2e80800000000000000
+      internalID: -8201488246827076898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_by_reidyaro-d47dn3h_0_3_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d463df090e6f6f780800000000000000
+      internalID: -8649454589952838067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_by_reidyaro-d47dn3h_0_3_13
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 66
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93f3bb7ae145cfb0800000000000000
+      internalID: -4628220566699773027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_by_reidyaro-d47dn3h_0_3_14
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 36
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a623ee7bd045de10800000000000000
+      internalID: 2221753302648039078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_by_reidyaro-d47dn3h_0_3_15
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 36
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68a3bb81ac6573a0800000000000000
+      internalID: -6668304232162809749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_by_reidyaro-d47dn3h_0_3_16
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 38
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f71b0484fc26fe890800000000000000
+      internalID: -7426608618100706945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_by_reidyaro-d47dn3h_0_3_17
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 35
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bce7fac73fa022c0800000000000000
+      internalID: -4458370976933483344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_by_reidyaro-d47dn3h_0_3_18
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 39
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9aef78c42d12a960800000000000000
+      internalID: 7611678364029414047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_by_reidyaro-d47dn3h_0_3_19
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e6081116d302e40800000000000000
+      internalID: 5629567021327871494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_by_reidyaro-d47dn3h_0_3_20
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca092c90812341d60800000000000000
+      internalID: 7859962328492708012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_by_reidyaro-d47dn3h_0_3_21
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab80df267925dcbe0800000000000000
+      internalID: -1455416294416512838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_by_reidyaro-d47dn3h_0_3_22
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 793488f490219c130800000000000000
+      internalID: 3587418409375646615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_by_reidyaro-d47dn3h_0_3_23
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b478882220f79060800000000000000
+      internalID: 6960295778623976626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      items_by_reidyaro-d47dn3h_0_3_0: -8516249152847608064
+      items_by_reidyaro-d47dn3h_0_3_1: 6755298653532095078
+      items_by_reidyaro-d47dn3h_0_3_10: 7017957992778369360
+      items_by_reidyaro-d47dn3h_0_3_11: -8201488246827076898
+      items_by_reidyaro-d47dn3h_0_3_12: -8649454589952838067
+      items_by_reidyaro-d47dn3h_0_3_13: -4628220566699773027
+      items_by_reidyaro-d47dn3h_0_3_14: 2221753302648039078
+      items_by_reidyaro-d47dn3h_0_3_15: -6668304232162809749
+      items_by_reidyaro-d47dn3h_0_3_16: -7426608618100706945
+      items_by_reidyaro-d47dn3h_0_3_17: -4458370976933483344
+      items_by_reidyaro-d47dn3h_0_3_18: 7611678364029414047
+      items_by_reidyaro-d47dn3h_0_3_19: 5629567021327871494
+      items_by_reidyaro-d47dn3h_0_3_2: 332193950784542149
+      items_by_reidyaro-d47dn3h_0_3_20: 7859962328492708012
+      items_by_reidyaro-d47dn3h_0_3_21: -1455416294416512838
+      items_by_reidyaro-d47dn3h_0_3_22: 3587418409375646615
+      items_by_reidyaro-d47dn3h_0_3_23: 6960295778623976626
+      items_by_reidyaro-d47dn3h_0_3_3: 4091114479317002835
+      items_by_reidyaro-d47dn3h_0_3_4: 8221819406100428732
+      items_by_reidyaro-d47dn3h_0_3_5: -5459505494536129070
+      items_by_reidyaro-d47dn3h_0_3_6: 5364726282039942513
+      items_by_reidyaro-d47dn3h_0_3_7: -5093899249986237783
+      items_by_reidyaro-d47dn3h_0_3_8: -8233971155596784952
+      items_by_reidyaro-d47dn3h_0_3_9: -8507852385089861375
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
