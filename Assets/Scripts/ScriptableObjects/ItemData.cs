@@ -8,5 +8,6 @@ public class ItemData : ScriptableObject
     public Sprite icon;
     public GameObject prefab;
     public int maxStackSize = 99;
+    public int quantity = 1;
     // Add any other properties or methods you need for your item
 }

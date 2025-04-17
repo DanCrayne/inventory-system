@@ -118,11 +118,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c35fed14412c70469e40b9c18c32d52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemPrefab: {fileID: 0}
-  SlotIndex: 0
+  ItemData: {fileID: 0}
   IsEmpty: 1
-  SlotBackground: {fileID: 0}
-  SlotHighlight: {fileID: 0}
   SlotIcon: {fileID: 2943029771512664246}
   SlotText: {fileID: 4989288541474391515}
 --- !u!114 &8821070492375952271
@@ -274,7 +271,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
+  m_TextWrappingMode: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}

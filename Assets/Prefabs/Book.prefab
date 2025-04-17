@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7708478094491415830}
   - component: {fileID: 2417252589615837334}
   m_Layer: 0
-  m_Name: Peach
+  m_Name: Book
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -91,7 +91,7 @@ SpriteRenderer:
   m_SortingLayerID: -1380254957
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 4091114479317002835, guid: e391b5c4af3272a4fb0f4550a894885d, type: 3}
+  m_Sprite: {fileID: -8649454589952838067, guid: e391b5c4af3272a4fb0f4550a894885d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -150,5 +150,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ed54a0a7d5d59b4fb41ae74adea844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemData: {fileID: 11400000, guid: 69296d7e354a93f4288513f2a491c39e, type: 2}
+  itemData: {fileID: 11400000, guid: c73fefb007960e445a8759a0d87f0c7b, type: 2}
   quantity: 1

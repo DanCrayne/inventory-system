@@ -1,58 +1,68 @@
-using TMPro;
+using System.Linq;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class InventoryManager : MonoBehaviour
 {
-    public Transform InventoryContent;
-    public GameObject ItemSlotPrefab;
-    public GameObject InventoryCanvas;
-    public InventoryUiController InventoryUiController;
+    public Item[] items;
+    public int maxInventorySize = 20;
+    public int maxStackSize = 999;
 
-    public static InventoryManager Instance;
-
-    private bool _menuActivated = false;
-
-    private void Awake()
+    void Awake()
     {
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-
-        //if (InventoryCanvas != null)
-        //{
-        //    InventoryCanvas.SetActive(false);
-        //}
-
-        PlayerController.OnToggleInventory += ToggleInventory;
+        items = new Item[maxInventorySize];
     }
 
-    private void OnDestroy()
+    public int GetQuantityOfItemInInventory(ItemData itemData)
     {
-        PlayerController.OnToggleInventory -= ToggleInventory;
+        return items.Where(x => x != null && x.itemData == itemData).Sum(x => x.quantity);
     }
 
-    public void ToggleInventory()
+    public void AddItem(ItemData itemData, int quantity)
     {
-        //if (InventoryCanvas != null)
-        //{
-        //    _menuActivated = !_menuActivated;
-        //    if (_menuActivated)
-        //    {
-        //        InventoryCanvas.SetActive(true);
-        //        Time.timeScale = 0f; // Pause the game
-        //    }
-        //    else
-        //    {
-        //        InventoryCanvas.SetActive(false);
-        //        Time.timeScale = 1f; // Resume the game
-        //    }
-        //}
+        for (int i = 0; i < maxInventorySize; i++)
+        {
+            if (items[i] == null)
+            {
+                items[i] = new Item { itemData = itemData, quantity = quantity };
+                Debug.Log("Added " + itemData.itemName + " to inventory.");
+                return;
+            }
+            else if (items[i].itemData == itemData)
+            {
+                items[i].quantity += quantity;
+                if (items[i].quantity > maxStackSize)
+                {
+                    // TODO: Handle overflow
+                    items[i].quantity = maxStackSize;
+                }
+                Debug.Log("Updated quantity of " + itemData.itemName + " in inventory.");
+                return;
+            }
+        }
+        Debug.Log("Inventory is full. Cannot add " + itemData.itemName);
+    }
+
+    public void RemoveItem(ItemData itemData, int quantity)
+    {
+        for (int i = 0; i < maxInventorySize; i++)
+        {
+            if (items[i] != null && items[i].itemData == itemData)
+            {
+                items[i].quantity -= quantity;
+                if (items[i].quantity <= 0)
+                {
+                    items[i] = null; // Remove item if quantity is zero
+                    Debug.Log("Removed " + itemData.itemName + " from inventory.");
+                }
+                else
+                {
+                    Debug.Log("Updated quantity of " + itemData.itemName + " in inventory.");
+                }
+
+                return;
+            }
+        }
+
+        Debug.Log(itemData.itemName + " not found in inventory.");
     }
 }

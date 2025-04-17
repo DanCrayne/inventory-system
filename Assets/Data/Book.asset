@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b99651652c477a84e9830850a0c25472, type: 3}
+  m_Name: Book
+  m_EditorClassIdentifier: 
+  itemName: Book
+  description: Something to read
+  icon: {fileID: -8649454589952838067, guid: e391b5c4af3272a4fb0f4550a894885d, type: 3}
+  prefab: {fileID: 5426337516975713910, guid: 186e0dc0b89ab9747b4f9f67cbb1057a, type: 3}
+  maxStackSize: 99

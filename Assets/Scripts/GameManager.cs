@@ -2,9 +2,11 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public Character playerCharacter;
-
+    public GameObject player;
     public static GameManager Instance;
+
+    private InventoryManager _inventoryManager;
+    private ItemSpawner _itemSpawner;
 
     private void Awake()
     {
@@ -17,15 +19,24 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        _inventoryManager = GetComponent<InventoryManager>();
+        _itemSpawner = GetComponent<ItemSpawner>();
     }
 
-    private void Start()
+    public ItemSpawner GetItemSpawner()
     {
-        // Initialize player character or other game elements here
-        if (playerCharacter == null)
-        {
-            Debug.LogError("Player character is not assigned in the GameManager.");
-        }
+        return _itemSpawner;
+    }
+
+    public InventoryManager GetInventoryManager()
+    {
+        return _inventoryManager;
+    }
+
+    public UiController GetUiController()
+    {
+        return GetComponent<UiController>();
     }
 
     public void PauseGame()

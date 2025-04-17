@@ -3,22 +3,46 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+    public static PlayerController Instance;
+
     public float MovementSpeed = 5f;
-    public Canvas InventoryCanvas;
 
     private Rigidbody2D _rigidBody;
     private Vector2 _input;
     private InputSystem_Actions _inputActions;
     private Animator _animator;
 
-    public delegate void ToggleInventoryAction();
-    public static event ToggleInventoryAction OnToggleInventory;
+    // Delegate definitions
+    public delegate void ToggleInventoryHandler();
+
+    // Event definitions
+    public static event ToggleInventoryHandler ToggleInventoryEvent;
 
     private void Awake()
     {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+
         _rigidBody = gameObject.GetComponent<Rigidbody2D>();
         _inputActions = new InputSystem_Actions();
         _animator = GetComponent<Animator>();
+    }
+
+    void FixedUpdate()
+    {
+        Vector2 velocity = _input * MovementSpeed;
+        _rigidBody.linearVelocity = velocity;
+    }
+
+    public Vector2 GetColliderSize()
+    {
+        return GetComponent<BoxCollider2D>().size;
     }
 
     private void OnEnable()
@@ -26,15 +50,15 @@ public class PlayerController : MonoBehaviour
         _inputActions.Player.Enable();
         _inputActions.Player.Move.performed += OnMove;
         _inputActions.Player.Move.canceled += OnMove;
-        _inputActions.Player.Inventory.performed += OnInventory;
+        _inputActions.Player.Inventory.performed += OnToggleInventory;
     }
 
     private void OnDisable()
     {
+        _inputActions.Player.Disable();
         _inputActions.Player.Move.performed -= OnMove;
         _inputActions.Player.Move.canceled -= OnMove;
-        _inputActions.Player.Inventory.performed -= OnInventory;
-        _inputActions.Player.Disable();
+        _inputActions.Player.Inventory.performed -= OnToggleInventory;
     }
 
     private void OnMove(InputAction.CallbackContext context)
@@ -52,14 +76,23 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void FixedUpdate()
+    public void DisablePlayerControls()
     {
-        Vector2 velocity = _input * MovementSpeed;
-        _rigidBody.linearVelocity = velocity;
+        _inputActions.Player.Disable();
     }
 
-    private void OnInventory(InputAction.CallbackContext context)
+    public void EnablePlayerControls()
     {
-        OnToggleInventory?.Invoke();
+        _inputActions.Player.Enable();
+    }
+
+    private void OnToggleInventory(InputAction.CallbackContext context)
+    {
+        MenuManager.Instance.ToggleMenu(MenuType.Inventory);
+    }
+
+    private void OnTogglePauseMenu(InputAction.CallbackContext context)
+    {
+        MenuManager.Instance.ToggleMenu(MenuType.PauseMenu);
     }
 }
