@@ -18,7 +18,6 @@ public class InventoryMenu : MonoBehaviour, IMenu
     public GameObject DropItemPanelPrefab;
     public GameObject MainPopupPanel;
 
-    private bool _menuActivated = false;
     private GameObject _dropItemPanel;
     private Stack _submenuStack = new Stack();
 

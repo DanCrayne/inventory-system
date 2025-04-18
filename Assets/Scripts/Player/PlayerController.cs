@@ -12,12 +12,6 @@ public class PlayerController : MonoBehaviour
     private InputSystem_Actions _inputActions;
     private Animator _animator;
 
-    // Delegate definitions
-    public delegate void ToggleInventoryHandler();
-
-    // Event definitions
-    public static event ToggleInventoryHandler ToggleInventoryEvent;
-
     private void Awake()
     {
         if (Instance == null)
